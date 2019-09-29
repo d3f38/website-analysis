@@ -2,9 +2,11 @@
 Анализ загрузки сайта lifehacker.ru в Chrome DevTools по вкладкам Network, Performance, Coverage
 
 
-
+***
 ### Network
-
+***
+#### Профиль загрузки ресурсов
+Профиль загрузки ресурсов при открытии страницы сохранен в файле [data/lifehacker.ru.har](data/lifehacker.ru.har)
 
 #### Дублирование ресурсов
 
@@ -31,9 +33,10 @@
 
 
 
-
+***
 ### Perfomance
-* Профиль загрузки страницы сохранен в файле `Profile-20190925T000853.json`
+***
+* Профиль загрузки страницы сохранен в файле [data/Profile-20190925T000853.json](data/lifehacker.ru.har)
 * Время в миллисекундах от начала навигации до событий First Paint, First Meaningful Paint, DOM Content Loaded, Load:
 `First Paint - 2592.0 ms`
 `First Meaningful Paint - 6464.0 ms`
@@ -42,8 +45,9 @@
 * Время в миллисекундах на разные этапы обработки документа (Loading, Scripting, Rendering, Painting):  
 
     ![](screenshots/perfomance.png)
-
+***
 ### Coverage
+***
 * Cкриншот вкладки после загрузки страницы: 
     ![](screenshots/coverage.png)
 * Объём неиспользованного CSS в ходе загрузки страницы: `233,72 Кб`
